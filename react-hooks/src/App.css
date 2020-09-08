@@ -1,0 +1,123 @@
+body {
+    background: #8E2DE2;  
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#container-box {
+    background-color: white;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#text {
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #4A00E0;
+}
+
+#author {
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    color: #4A00E0;
+}
+
+#new-quote {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.button-fav-newquote {
+    background: #8E2DE2; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+    color: white;
+    transition: all .2s ease-in-out; 
+    font-weight: 400;
+}
+.button-fav-newquote:hover {
+    transform: scale(1.2, 1.2);
+    color: white;
+}
+
+#button-icon{
+    background: #8E2DE2;  
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+    transition: all .2s ease-in-out; 
+}
+#button-icon:hover {
+    transform: scale(1.2, 1.2);
+}
+
+#icon {
+    font-size: 20px;
+    color: white;
+}
+
+.mati {
+    margin-top: 20px;
+    color: white
+}
+
+.favorite-quotes {
+    margin-top: 20px;
+    transition: all .2s ease-in-out; 
+}
+.favorite-quotes:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.Link {
+    color: white;
+}
+.Link:hover {
+    color: silver;
+    text-decoration: none;
+}
+
+.go-back-favorite {
+    display: flex;
+    justify-content: center;
+    transition: all .2s ease-in-out; 
+}
+.go-back-favorite:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.Link-favorite {
+    color: white;
+}
+.Link-favorite:hover {
+    color: silver;
+    text-decoration: none;
+}
+
+.favorite-card {
+    display: flex;
+}
+
+.close-buton{
+    margin-left: 30px;
+    margin-top: 70px;
+}
